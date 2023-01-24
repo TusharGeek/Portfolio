@@ -39,7 +39,7 @@ function App() {
     {/* Apps Start  */}
     <div className='Grid py-4 px-5 max-w-5xl m-auto'>
     <div style={{gridColumn:"1/3",gridRow:"1/3"}} className="flex flex-col items-center ">
-    <div className='Grids bg-yellow-500 rounded-xl p-4 mx-2 my-1 h-full w-9/12 md:w-8/12' >
+    <div className='Grids bg-yellow-500 rounded-xl p-4 mx-2 my-1 h-full w-10/12 md:w-9/12' >
     <p className='text-white font-bold '>Hi,<br/> Im Tushar Aanad<br></br> Full Stack Developer</p>
     </div>
     <p className='text-xs font-semibold text-white m-1'>Notes</p>
