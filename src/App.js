@@ -37,11 +37,14 @@ function App() {
     </div>
     {/* Header End */}
     {/* Apps Start  */}
-    <div className='Grid py-4 px-5 '>
-    <div style={{gridColumn:"1/3",gridRow:"1/3"}} className='Grids bg-yellow-500 rounded-xl p-3 mx-2 my-1'>
+    <div className='Grid py-4 px-5 max-w-5xl m-auto'>
+    <div style={{gridColumn:"1/3",gridRow:"1/3"}} className="flex flex-col items-center ">
+    <div className='Grids bg-yellow-500 rounded-xl p-4 mx-2 my-1 h-full w-9/12 md:w-8/12' >
     <p className='text-white font-bold '>Hi,<br/> Im Tushar Aanad<br></br> Full Stack Developer</p>
-
     </div>
+    <p className='text-xs font-semibold text-white m-1'>Notes</p>
+    </div>
+  
     <div className='flex flex-col items-center Grids'>
     <img src={WalletSvg} className="w-14"></img>
      <p className='text-xs font-semibold text-white m-1'>Wallet</p>
@@ -87,7 +90,7 @@ function App() {
 
    {/* Nav Start */}
 
-   <div style={{backgroundColor:"gray"}} className='nav p-2 rounded-3xl flex gap-5 justify-center w-full'>
+   <div style={{backgroundColor:"gray"}} className='nav p-2 rounded-3xl flex gap-5 justify-center w-full '>
    <div className='flex flex-col items-center Grids'>
     <img src={MessageSvg} className="w-14"></img>
     </div>
